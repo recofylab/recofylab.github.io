@@ -86,40 +86,38 @@ export default function Home() {
               Start showing personalized recommendations in minutes.
             </p>
           </div>
-          
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-gray-900 rounded-xl p-6 text-green-400 font-mono text-sm overflow-x-auto">
-                <div className="text-gray-500">// Install Recofy SDK</div>
+                <div className="text-gray-500">{/* Install Recofy SDK */}</div>
                 <div className="mt-2">npm install @recofy/sdk</div>
                 <br />
-                <div className="text-gray-500">// Initialize and get recommendations</div>
+                <div className="text-gray-500">{/* Initialize and get recommendations */}</div>
                 <div className="mt-2 text-blue-400">import</div>
                 <div className="text-white"> {'{ Recofy }'} </div>
                 <div className="text-blue-400">from</div>
-                <div className="text-yellow-300"> '@recofy/sdk'</div>
+                <div className="text-yellow-300">&apos;@recofy/sdk&apos;</div>
                 <div className="text-white">;</div>
                 <br />
                 <div className="text-blue-400">const</div>
                 <div className="text-white"> recofy = </div>
                 <div className="text-blue-400">new</div>
                 <div className="text-white"> Recofy(</div>
-                <div className="text-yellow-300">'your-api-key'</div>
+                <div className="text-yellow-300">&apos;your-api-key&apos;</div>
                 <div className="text-white">);</div>
                 <br />
                 <div className="text-blue-400">const</div>
                 <div className="text-white"> recommendations = </div>
                 <div className="text-blue-400">await</div>
-                <div className="text-white"> recofy.getRecommendations({'{'}</div>
+                <div className="text-white"> recofy.getRecommendations(&#123;</div>
                 <div className="ml-4 text-white">userId: </div>
-                <div className="text-yellow-300">'user123'</div>
+                <div className="text-yellow-300">&apos;user123&apos;</div>
                 <div className="text-white">,</div>
                 <div className="ml-4 text-white">context: </div>
-                <div className="text-yellow-300">'product-page'</div>
-                <div className="text-white">{'}'});</div>
+                <div className="text-yellow-300">&apos;product-page&apos;</div>
+                <div className="text-white">&#125;);</div>
               </div>
             </div>
-            
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="bg-blue-100 p-2 rounded-lg">
@@ -130,7 +128,6 @@ export default function Home() {
                   <p className="text-gray-600">Get instant product suggestions based on current user behavior and browsing patterns.</p>
                 </div>
               </div>
-              
               <div className="flex items-start gap-4">
                 <div className="bg-purple-100 p-2 rounded-lg">
                   <Target className="h-6 w-6 text-purple-600" />
@@ -140,7 +137,6 @@ export default function Home() {
                   <p className="text-gray-600">Our AI understands shopping context - whether users are browsing, comparing, or ready to buy.</p>
                 </div>
               </div>
-              
               <div className="flex items-start gap-4">
                 <div className="bg-green-100 p-2 rounded-lg">
                   <BarChart3 className="h-6 w-6 text-green-600" />
@@ -195,7 +191,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Personalized Vitrines</h3>
               <p className="text-gray-600">
-                Create dynamic product showcases tailored to each user's preferences, increasing engagement and conversion rates.
+                Create dynamic product showcases tailored to each user&apos;s preferences, increasing engagement and conversion rates.
               </p>
             </div>
             
@@ -215,7 +211,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Lightning Fast</h3>
               <p className="text-gray-600">
-                Sub-100ms response times ensure smooth user experience without impacting your site's performance.
+                Sub-100ms response times ensure smooth user experience without impacting your site&apos;s performance.
               </p>
             </div>
             
